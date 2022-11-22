@@ -1,0 +1,46 @@
+\documentclass[20pt]{extarticle}
+\usepackage{lipsum}
+\pagestyle{empty}
+
+\begin{document}
+
+\newenvironment{role}[2]
+{
+\begin{centering}
+  \textbf{\large{#1}}\\
+  Level #2\\
+\end{centering}
+\begin{itemize}
+}
+{
+\end{itemize}
+\pagebreak
+}
+
+\begin{role}{Mobber}{0}
+  \item Contribute an idea
+  \item Ask questions until you understand
+\end{role}
+
+\begin{role}{Mobber}{1}
+  \item Contribute an idea
+  \item Ask questions until you understand
+  \item Support an idea from a Level 0 Mobber
+\end{role}
+
+\begin{role}{Mobber}{2}
+  \item Contribute an idea
+  \item Ask questions until you understand
+  \item Support an idea from a lower-level Mobber
+  \item Identify a refactoring opportunity (a ``code smell'')
+\end{role}
+
+\begin{role}{Mobber}{3}
+  \item Contribute an idea
+  \item Ask questions until you understand
+  \item Support an idea from a lower-level Mobber
+  \item Identify a refactoring opportunity (a ``code smell'')
+  \item Celebrate a moment of excellence
+\end{role}
+
+\end{document}
