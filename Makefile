@@ -8,7 +8,7 @@ build:
 
 build/roles.pdf: build src/roles.tex
 	mkdir -p build
-	pdflatex -output-directory build src/roles.tex 
+	pdflatex -output-directory build src/roles.tex
 
 build/handout.pdf: build/roles.pdf
 	cp build/roles.pdf /tmp
@@ -17,3 +17,4 @@ build/handout.pdf: build/roles.pdf
 
 build/markdown: build src/*md
 	cp src/*md build
+	cp src/_config.yml build
