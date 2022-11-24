@@ -12,19 +12,14 @@ jobs:
       - name: Install dependencies
         run: sudo apt install texlive-extra-utils
 
-      - name: Compile LaTeX documents
-        run: pdflatex roles
-        working-directory: ./src
-
-      - name: Create printable versions of PDFs
-        run: pdfxup -x 2 -y 2 -ow -kbb --portrait -o handout.pdf roles.pdf
-        working-directory: ./src
+      - name: Compile documents
+        run: make
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src
+          publish_dir: ./build
           enable_jekyll: true
           force_orphan: true
           user_name: 'github-ci[bot]'
