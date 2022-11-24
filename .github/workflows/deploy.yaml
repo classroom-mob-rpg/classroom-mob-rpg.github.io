@@ -13,7 +13,8 @@ jobs:
         run: sudo apt install texlive-extra-utils
 
       - name: Compile LaTeX documents
-        run: cd src; make
+        run: make
+        working-directory: ./src
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
