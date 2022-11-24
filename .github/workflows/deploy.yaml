@@ -1,0 +1,28 @@
+name: Build and deploy to GitHub Pages
+
+on: [push, workflow_dispatch]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: sudo apt install texlive-extra-utils
+
+      - name: Compile LaTeX documents
+        run: cd src; make
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./src
+          enable_jekyll: true
+          force_orphan: true
+          user_name: 'github-ci[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Publish to gh-pages'
+          exclude_assets: '**log,**aux'
