@@ -3,7 +3,7 @@
 This is the main page, where instructions will live.
 
 - [Moderator Instructions](ModeratorInstructions.md)
-- [Handouts](handout.pdf)
+- [Role Handouts](handout.pdf)
 
 ## License
 
