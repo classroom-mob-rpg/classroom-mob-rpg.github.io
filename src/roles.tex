@@ -15,9 +15,10 @@
 
 \begin{document}
 
-\newenvironment{role}[2]
-{
-  \begin{centering}
+\newcounter{Level}
+
+\newenvironment{role}[2]{
+    \begin{centering}
     \ifnum0=#2 \newcommand{\xp}{2} \newcommand{\score}{0 Points}
     \else \ifnum1=#2 \newcommand{\xp}{3} \newcommand{\score}{20 Points} 
       \else \ifnum2=#2 \newcommand{\xp}{4} \newcommand{\score}{30 Points}
@@ -25,7 +26,9 @@
         \fi
       \fi
     \fi
-      
+
+    \setcounter{Level}{#2}
+          
     \textbf{\large{#1}}\\
     Level #2\\
     \score{}\\
@@ -35,10 +38,15 @@
 }
 {
   \end{itemize}
-  \vfill Earn experience points~(XP) by taking an action,
-    \mbox{announcing} % Prevent hyphenation here
-    it to your team, and marking the XP box.
-  \pagebreak
+  \vfill
+  \ifnum3=\value{Level}{Earn experience points~(XP) by taking
+        an action, telling your team, and making the XP box. Level up
+        when all boxes are full.}
+  \else {Earn experience points~(XP) by
+        taking an action, telling your team, and marking it above.
+        XP increases your team's score.}
+  \fi
+  \pagebreak  
 }
 
 \begin{role}{Mobber}{0}
