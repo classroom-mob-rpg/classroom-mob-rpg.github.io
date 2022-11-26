@@ -13,30 +13,33 @@
 }
 \makeatother
 
-
 \begin{document}
 
 \newenvironment{role}[2]
 {
   \begin{centering}
-    \ifnum0=#2 \newcommand{\xp}{3}
-    \else \ifnum1=#2 \newcommand{\xp}{5} 
-      \else \ifnum2=#2 \newcommand{\xp}{7} 
-        \else \newcommand{\xp}{0}
+    \ifnum0=#2 \newcommand{\xp}{2} \newcommand{\score}{0 Points}
+    \else \ifnum1=#2 \newcommand{\xp}{3} \newcommand{\score}{20 Points} 
+      \else \ifnum2=#2 \newcommand{\xp}{4} \newcommand{\score}{30 Points}
+        \else \newcommand{\xp}{0} \newcommand{\score}{35 Points + 1 per XP}
         \fi
       \fi
     \fi
-  \textbf{\large{#1}}\\
-  Level #2\\
-  XP: \ifnum3=#2 Unlimited! \else \myrepeat{\xp}{$\square$} \fi
+      
+    \textbf{\large{#1}}\\
+    Level #2\\
+    \score{}\\
+  XP: \ifnum3=#2 \else \myrepeat{\xp}{$\square$} \fi
 \end{centering}
 \begin{itemize}
 }
 {
-\end{itemize}
-\vfill Earn experience points~(XP) by taking any of the actions above,
-announcing to your team that you have done it, and marking an XP box.
-\pagebreak }
+  \end{itemize}
+  \vfill Earn experience points~(XP) by taking an action,
+    \mbox{announcing} % Prevent hyphenation here
+    it to your team, and marking the XP box.
+  \pagebreak
+}
 
 \begin{role}{Mobber}{0}
   \item Contribute an idea
