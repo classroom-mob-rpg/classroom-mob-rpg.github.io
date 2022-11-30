@@ -58,6 +58,13 @@ for novice teams.
 Depending on the experience level of the teams, you might want to
 provide a project skeleton that includes an initial failing unit test.
 
+It is easy for students to become overwhelmed and forget the goal
+of the game, no matter how often you say it. Therefore, you should
+write, project, or provide handouts to frame the exercise, using
+text like this:
+> Use Test-Driven Development and Mob Programming to solve the following
+> programming challenge: [Insert the programming challenge here]
+
 Prepare a timer that you can run for all players, and project this
 to the room if possible. Three-minute turns are recommended,
 and a single round of the game should have as many turns as there
