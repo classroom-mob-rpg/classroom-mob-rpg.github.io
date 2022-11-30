@@ -23,7 +23,9 @@ templates may be useful.
 
 ## License
 
-These rules and materials are licensed under 
+&copy;2022 Paul Gestwicki
+
+The rules and materials are licensed under 
 [CC BY-SA-NC 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 The software is licensed under [GNU GPL v3.0](LICENSE).
 
