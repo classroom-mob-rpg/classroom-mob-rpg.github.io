@@ -1,5 +1,6 @@
 \documentclass[letterpaper,20pt]{extarticle}
 \usepackage{amssymb}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
 \pagestyle{empty}
 
 % "Repeat n times" code from https://tex.stackexchange.com/questions/300207/repeat-characters-n-times
@@ -29,8 +30,8 @@
 
     \setcounter{Level}{#2}
           
-    \textbf{\large{#1}}\\
-    Level #2\\
+    \textbf{\Large #1}\\\vspace{0.2cm}
+    {\Large Level #2}\\
   XP: \ifnum3=#2 \else \myrepeat{\xp}{$\square$} \fi
 \end{centering}
 
