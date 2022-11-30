@@ -18,8 +18,8 @@ The following links provide everything else you need to run the game.
 An instructor may choose to give students a template to get started. The following
 templates may be useful.
 
-- [FizzBuzz starter project (Java+Gradle)](https://github.com/doctor-g/fizzbuzz_java) 
-- [FizzBuzz starter project (Flutter+Dart)](https://github.com/doctor-g/fizzbuzz_flutter)
+- [FizzBuzz starter project (Java+Gradle)](https://github.com/classroom-mob-rpg/fizzbuzz_java) 
+- [FizzBuzz starter project (Flutter+Dart)](https://github.com/classroom-mob-rpg/fizzbuzz_flutter)
 
 ## License
 
