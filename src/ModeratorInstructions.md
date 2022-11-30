@@ -42,11 +42,21 @@ Instruct teach team to select one laptop to use for the work session
 and to remove all others from the environment. It is convenient here to also
 provide USB keyboards and mice along with hand sanitizer.
 
-Have each team write a list of the members' names. This is the list
+Have each team write a list of the members' names on paper.
+This is the list
 through which the roles of Navigator, Driver, and Mobber will move.
+They will likely want to do this digitally, but you should use
+this opportunity to break them from this bad habit: if they make it 
+digital, then they incur additional cost of referencing it while working,
+whereas using paper reminds them of the affordances of this excellent
+communication medium.
+Note that if you happen to have just one team, then [Mobtime](http://mobti.me)
+is an excellent resource, but it won't scale well to have many teams working
+at once in the same room at the same time.
+
 It is recommended that the names be shuffled so that the sequence
 is random; this can be done with a Web service such as
-[random.org's list randomizer](https://www.random.org/lists/).
+random.org's list randomizer at [https://www.random.org/lists/].
 Mark the first person on the list as the Driver and the second
 one as the Navigator.
 
