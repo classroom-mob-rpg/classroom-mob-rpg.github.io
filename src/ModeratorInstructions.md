@@ -53,7 +53,7 @@ digital, then they incur additional cost of referencing it while working,
 whereas using paper reminds them of the affordances of this excellent
 communication medium.
 Note that if you happen to have just one team, then [Mobtime](http://mobti.me)
-is an excellent resource, but it won't scale well to have many teams working
+is quite useful, but it won't scale well to have many teams working
 at once in the same room at the same time.
 
 It is recommended that the names be shuffled so that the sequence
