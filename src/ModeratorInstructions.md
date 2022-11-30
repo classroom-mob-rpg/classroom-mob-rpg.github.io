@@ -56,12 +56,6 @@ Note that if you happen to have just one team, then [Mobtime](http://mobti.me)
 is quite useful, but it won't scale well to have many teams working
 at once in the same room at the same time.
 
-It is recommended that the names be shuffled so that the sequence
-is random; this can be done with a Web service such as
-random.org's list randomizer at [https://www.random.org/lists/].
-Mark the first person on the list as the Driver and the second
-one as the Navigator.
-
 Give each team a description of the problem that is being solved
 through the session. This can be done with a handout or by posting it
 in an easily viewable place such as a projection screen or whiteboard.
@@ -91,10 +85,12 @@ Distribute the role sheets and explain the rules of the game:
 progress as they can on the problem.
 
 1. Within a team, at any time, there will be one Driver and one Navigator
-and the rest will be Mobbers. When the timer goes off, the roles process
-to the next players in the list: the previous Navigator becomes a Mobber,
-the previous Driver becomes the Navigator, and the next Mobber in sequence
-becomes the new Driver.
+and the rest will be Mobbers. 
+
+1. Assign roles so that the first person in the list is the Navigator,
+ the second is the Driver, and the rest are Mobbers.
+ Explain that after each turn, the roles advance, so the second person on the
+ list becomes Navigator, the third becomes Driver, and the rest are Mobbers.
 
 1. You earn Experience Points (XP) in each role by taking actions
 that are appropriate to that role. When you have taken an action
