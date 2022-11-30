@@ -24,13 +24,15 @@ that new players are not overwhelmed with the amount of information
 they are given; you could have your players do the folding to distribute
 the manual effort instead.
 
-Determine if you want to pick the teams, if you want the teams to pick
-themselves, or if you want them to be randomzied.
+Determine how you want to arrange teams, the length of each turn, and 
+how many rounds you want to complete.
+The recommendations are:
 
-Determine how many rounds you want to complete.
-It is recommended to complete at least two rounds so that teams
-have an opportunity to reflect on their first one and incorporate
-improvements into their second one.
+- Either randomize the teams or form teams of people the students do not normally work with.
+- Make teams of 4-5 students.
+- Use three-minute turns, which means a round should take at most 15 minutes. This allows
+  you to fit two rounds, with brief retrospectives, in a 50-minute class period.
+
 
 ## Setting Up
 
