@@ -107,13 +107,6 @@ on your observations, you might start with questions like these:
 
 ## Ending the Game
 
-After the final round, each team computes their scores. A team's score
-is the total value of all achieved role levels divided by the number
-of players, rounded up.
-Congratulate the team with the highest score.
-It is not recommended to attach any course credit to this victory,
-but giving this team a token prize can be fun for everyone.
-
 Conduct another retrospective with the teams. This can use the same
 questions as those suggested above, but this is also a good time for
 you to point out what you noticed about their behavior as well.

@@ -19,10 +19,10 @@
 
 \newenvironment{role}[2]{
     \begin{centering}
-    \ifnum0=#2 \newcommand{\xp}{2} \newcommand{\score}{0 Points}
-    \else \ifnum1=#2 \newcommand{\xp}{3} \newcommand{\score}{20 Points} 
-      \else \ifnum2=#2 \newcommand{\xp}{4} \newcommand{\score}{30 Points}
-        \else \newcommand{\xp}{0} \newcommand{\score}{35 Points + 1 per XP}
+    \ifnum0=#2 \newcommand{\xp}{2} 
+    \else \ifnum1=#2 \newcommand{\xp}{3}
+      \else \ifnum2=#2 \newcommand{\xp}{4}
+        \else \newcommand{\xp}{0}
         \fi
       \fi
     \fi
@@ -31,7 +31,6 @@
           
     \textbf{\large{#1}}\\
     Level #2\\
-    \score{}\\
   XP: \ifnum3=#2 \else \myrepeat{\xp}{$\square$} \fi
 \end{centering}
 
@@ -47,8 +46,7 @@
         an action, telling your team, and marking the XP box. Level up
         when all boxes are full.}
   \else {Earn experience points~(XP) by
-        taking an action, telling your team, and marking it above.
-        XP increases your team's score.}
+        taking an action, telling your team, and marking it above.}
   \fi
   \pagebreak  
 }
