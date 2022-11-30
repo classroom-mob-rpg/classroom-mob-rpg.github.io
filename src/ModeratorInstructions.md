@@ -107,6 +107,13 @@ on your observations, you might start with questions like these:
 
 ## Ending the Game
 
+A team's score is equal to ten times the total levels that were earned (plus
+bonus points for extra Level 3 XP as described on the cards) divided by the size
+of the team. Congratulate the team with the highest score. It is not recommended
+to attach any course credit to this victory, but giving this team a token prize
+can be fun for everyone.
+
+
 Conduct another retrospective with the teams. This can use the same
 questions as those suggested above, but this is also a good time for
 you to point out what you noticed about their behavior as well.
